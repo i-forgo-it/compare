@@ -1,5 +1,6 @@
 # summary
 It compares the same file everytime it is scanned and gives only the output when there are changes, you can use the -result or -all flag to only output the changes or the whole file and you need to precise the file you want to use with the -f flag.
+For the moment it only works on txt files.
 
 # Example
 Let's say I have a blank file called test.txt and every minute a new line is added and I only want to output the changes.
